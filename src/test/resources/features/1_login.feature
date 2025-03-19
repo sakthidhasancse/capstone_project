@@ -1,11 +1,11 @@
-@First
+
 Feature: Register User
 
  Feature: User Registration and Account Deletion
  Background:
       Given I launch the browser
       And I navigate to "http://automationexercise.com"
- @SmokeTest
+ 
 Scenario Outline: Register a new user and delete the account
 
     When I click on Signup / Login button
@@ -41,6 +41,7 @@ Scenario: login user with incorrect credentials
      And enter incorrect email and password 
      And click login button
      Then Verify error Your email or password is incorrect! is visible
+@SmokeTest
 Scenario: logout user
       When user click signup/login button
      And enter email and password 

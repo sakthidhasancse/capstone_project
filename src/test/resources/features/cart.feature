@@ -1,4 +1,4 @@
-@Third
+
 Feature: Cart functionality
 Background:
   Given user launches the browser

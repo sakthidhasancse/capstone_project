@@ -1,4 +1,4 @@
-@Second
+
 Feature: product search functionality
 Background:
   Given user launch the browser

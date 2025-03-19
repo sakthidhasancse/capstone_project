@@ -1,4 +1,4 @@
-@Fifth
+
 Feature: scroll functionality
 Background:
 Given launches the browser

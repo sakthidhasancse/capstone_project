@@ -1,4 +1,4 @@
-@Fourth
+
 Feature: Checkout functionality
 Background:
 Given launch the browser

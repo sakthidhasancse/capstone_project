@@ -126,7 +126,8 @@ public class RegistrationPage {
 //    }
 
     public void clickDeleteAccount() {
-        driver.findElement(deleteAccountBtn).click();
+       WebElement log= driver.findElement(deleteAccountBtn);
+       log.click();
     }
 
     public boolean isAccountDeletedVisible() {
