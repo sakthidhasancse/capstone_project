@@ -86,7 +86,7 @@ public class CheckoutSteps {
 	@When("Fill all details in Signup and create account")
 	public void fill_all_details_in_signup_and_create_account() throws InterruptedException {
 		driver.findElement(By.xpath("//*[@id=\"form\"]/div/div/div[3]/div/form/input[2]")).sendKeys("sakthi");
-		driver.findElement(By.xpath("//*[@id=\"form\"]/div/div/div[3]/div/form/input[3]")).sendKeys("sakthi31326921@gmail.com");
+		driver.findElement(By.xpath("//*[@id=\"form\"]/div/div/div[3]/div/form/input[3]")).sendKeys("sakthi313269213@gmail.com");
 		Thread.sleep(2000);
 		driver.findElement(By.cssSelector("#form > div > div > div:nth-child(3) > div > form > button")).click();
 		Thread.sleep(2000);

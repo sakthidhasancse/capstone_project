@@ -41,7 +41,7 @@ Scenario: login user with incorrect credentials
      And enter incorrect email and password 
      And click login button
      Then Verify error Your email or password is incorrect! is visible
-@SmokeTest
+
 Scenario: logout user
       When user click signup/login button
      And enter email and password 

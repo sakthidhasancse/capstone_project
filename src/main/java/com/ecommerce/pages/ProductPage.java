@@ -1,9 +1,12 @@
 package com.ecommerce.pages;
 
+import java.time.Duration;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class ProductPage {
 	WebDriver driver;
@@ -43,7 +46,9 @@ public class ProductPage {
     	driver.findElement(searchbtn).click();
     }
     public void clickcartbutton() {
-    	driver.findElement(cartbtn).click();
+    	WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+    	WebElement cart =driver.findElement(cartbtn);
+    	cart.click();
     }
     public boolean iscategoryvisible() {
     	 WebElement categoriesHeader = driver.findElement(category);
